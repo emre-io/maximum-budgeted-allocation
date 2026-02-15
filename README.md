@@ -1,5 +1,5 @@
 # Approximationalgorithm for Maximum Budgeted Allocation
-This repository contains an implementation of the approximationalgorithm from [Chakrabarty und Goel (2010)](https://epubs.siam.org/doi/10.1137/080735503) for the maximum budgeted allocation problem.
+This repository contains an implementation of the approximationalgorithm from [Chakrabarty and Goel (2010)](https://epubs.siam.org/doi/10.1137/080735503) for the maximum budgeted allocation problem.
 
 ### Feasible Instances
 The approximationalgorithm requires that the maximum bid of each agent is less than or equal to its budget.
