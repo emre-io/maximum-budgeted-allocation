@@ -8,15 +8,14 @@ The approximationalgorithm requires that the maximum bid of each agent is less t
 
 ### Conda environment 
 
-Create a new conda environment with python 3.14.x. Then install the following dependencies. 
+Create a new conda environment with python 3.14.x via `conda create --name mba python=3.14`. Then install the following dependencies. 
 - graph-tool 
-- graph-tool-base
 - ortools
 - scipy
 
-Activate your conda environment and use this commands to install the dependencies.
+Activate your conda environment and use following commands to install the dependencies.
 
-`conda install graph-tool graph-tool-base`  
+`conda install conda-forge::graph-tool`
 `pip install ortools scipy`
 
 ### Install package
@@ -30,4 +29,4 @@ In example $1$, there are three agents, labeled $i$, each with a budget of $3$, 
 ## Usage
 See `main.py` or tests for usage examples. 
 
-You can run the `main.py` file with `python -m maximum_budgeted_allocation.main` in project root.# maximum-budgeted-allocation
+You can run the `main.py` file with `python -m maximum_budgeted_allocation.main` in project root.
