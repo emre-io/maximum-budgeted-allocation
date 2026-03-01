@@ -18,6 +18,8 @@ Activate your conda environment and use following commands to install the depend
 `conda install conda-forge::graph-tool`
 `pip install ortools scipy`
 
+graph-tool is only availavle for GNU/Linux and MacOS.
+
 ### Install package
 Activate your conda environment and install this package using `pyproject.toml` via  `pip install -e .` in the project root.
 
